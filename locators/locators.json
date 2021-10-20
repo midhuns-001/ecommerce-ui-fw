@@ -1,0 +1,180 @@
+[
+  {
+    "pageName": "HomePage",
+    "name": "link_login",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Sign in')]"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "header_login",
+    "locateUsing": "xpath",
+    "locator": "//h1[contains(text(), 'My account')]"
+  },
+  {
+    "pageName": "LoggedInPage",
+    "name": "btn_logout",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(@class,'logout')]"
+  },
+  {
+    "pageName": "LoggedInPage",
+    "name": "header_authentication",
+    "locateUsing": "xpath",
+    "locator": "//h1[contains(text(), 'Authentication')]"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "input_email",
+    "locateUsing": "id",
+    "locator": "email"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "input_password",
+    "locateUsing": "id",
+    "locator": "passwd"
+  },
+  {
+    "pageName": "LoginPage",
+    "name": "btn_login",
+    "locateUsing": "id",
+    "locator": "SubmitLogin"
+  },
+  {
+    "pageName": "LoggedInPage",
+    "name": "input_search",
+    "locateUsing": "id",
+    "locator": "search_query_top"
+
+  },
+
+  {
+    "pageName": "CreateAccountPage",
+    "name": "input_email",
+    "locateUsing": "id",
+    "locator": "email_create"
+  },
+  {
+    "pageName": "CreateAccountPage",
+    "name": "btn_create_account",
+    "locateUsing": "id",
+    "locator": "SubmitCreate"
+  },
+  {
+    "pageName": "CreateAccountPage",
+    "name": "header_login",
+    "locateUsing": "xpath",
+    "locator": "//h1[contains(text(),'Create an account')]"
+  },
+  {
+    "pageName": "CreateAccountPage",
+    "name": "gender_male",
+    "locateUsing": "id",
+    "locator": "id_gender1"
+  },
+  {
+    "pageName": "CreateAccountPage",
+    "name": "gender_female",
+    "locateUsing": "id",
+    "locator": "id_gender2"
+  },
+  {
+    "pageName": "CreateAccountPage",
+    "name": "first_name",
+    "locateUsing": "id",
+    "locator": "customer_firstname"
+  },
+  {
+    "pageName": "CreateAccountPage",
+    "name": "last_name",
+    "locateUsing": "id",
+    "locator": "customer_lastname"
+  },
+  {
+    "pageName": "CreateAccountPage",
+    "name": "password",
+    "locateUsing": "id",
+    "locator": "passwd"
+  },
+  {
+    "pageName": "CreateAccountPage",
+    "name": "day_of_birth",
+    "locateUsing": "id",
+    "locator": "days"
+  },
+  {
+    "pageName": "CreateAccountPage",
+    "name": "month_of_birth",
+    "locateUsing": "id",
+    "locator": "months"
+  },
+  {
+    "pageName": "CreateAccountPage",
+    "name": "year_of_birth",
+    "locateUsing": "id",
+    "locator": "years"
+  },
+  {
+    "pageName": "CreateAccountPage",
+    "name": "address_first_name",
+    "locateUsing": "id",
+    "locator": "firstname"
+  },
+  {
+    "pageName": "CreateAccountPage",
+    "name": "address_last_name",
+    "locateUsing": "id",
+    "locator": "lastname"
+  },
+  {
+    "pageName": "CreateAccountPage",
+    "name": "address",
+    "locateUsing": "id",
+    "locator": "address1"
+  },
+  {
+    "pageName": "CreateAccountPage",
+    "name": "city",
+    "locateUsing": "id",
+    "locator": "city"
+  },
+
+  {
+    "pageName": "CreateAccountPage",
+    "name": "state",
+    "locateUsing": "id",
+    "locator": "id_state"
+  },
+  {
+    "pageName": "CreateAccountPage",
+    "name": "postcode",
+    "locateUsing": "id",
+    "locator": "postcode"
+  },
+  {
+    "pageName": "CreateAccountPage",
+    "name": "country",
+    "locateUsing": "id",
+    "locator": "id_country"
+  },
+  {
+      "pageName": "CreateAccountPage",
+      "name": "mobile",
+      "locateUsing": "id",
+      "locator": "phone_mobile"
+  },
+  {
+      "pageName": "CreateAccountPage",
+      "name": "register_submit_btn",
+      "locateUsing": "id",
+      "locator": "submitAccount"
+  },
+
+  {
+      "pageName": "MyAccountPage",
+      "name": "my_account_header",
+      "locateUsing": "xpath",
+      "locator": "//h1[contains(text(),'My account')]"
+  }
+]

@@ -1,0 +1,19 @@
+{
+    "environment": "http://automationpractice.com/index.php",
+    "browser": "firefox",
+    "email": "practise3@gmail.com",
+    "password": "welcome",
+    "title": "Mr",
+    "first_name": "test",
+    "last_name":"user",
+    "password": "password",
+    "day_of_birth": "12",
+    "month_of_birth": "3",
+    "year_of_birth":"1984",
+    "address": "test address",
+    "city": "test city",
+    "zip": "73008",
+    "state": "Florida",
+    "country": "United States",
+    "mobile": "7353717950"
+}

@@ -1,0 +1,16 @@
+[32mINFO    [0m HomeNavigation:selenium_driver.py:96 Element found with locator: //a[contains(text(),'Sign in')] and locatorType: xpath
+[32mINFO    [0m HomeNavigation:selenium_driver.py:129 clicked on element with locator: //a[contains(text(),'Sign in')] locatorType: xpath
+[32mINFO    [0m TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: navigation to login page failed
+[32mINFO    [0m LoginPage:selenium_driver.py:96 Element found with locator: email and locatorType: id
+[32mINFO    [0m LoginPage:selenium_driver.py:160 send data on element with locator: email locatorType: id
+[32mINFO    [0m LoginPage:selenium_driver.py:96 Element found with locator: passwd and locatorType: id
+[32mINFO    [0m LoginPage:selenium_driver.py:160 send data on element with locator: passwd locatorType: id
+[32mINFO    [0m LoginPage:selenium_driver.py:96 Element found with locator: SubmitLogin and locatorType: id
+[32mINFO    [0m LoginPage:selenium_driver.py:129 clicked on element with locator: SubmitLogin locatorType: id
+[32mINFO    [0m LoginPage:selenium_driver.py:112 Element list found with locator: //h1[contains(text(), 'My account')] and locatorType: xpath
+[32mINFO    [0m LoggedInPage:selenium_driver.py:112 Element list found with locator: search_query_top and locatorType: id
+[32mINFO    [0m TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: login failed
+[32mINFO    [0m LoggedInPage:selenium_driver.py:96 Element found with locator: //a[contains(@class,'logout')] and locatorType: xpath
+[32mINFO    [0m LoggedInPage:selenium_driver.py:129 clicked on element with locator: //a[contains(@class,'logout')] locatorType: xpath
+[32mINFO    [0m LoggedInPage:selenium_driver.py:170 Waiting for maximum :: 10 :: seconds for element to be clickable
+[32mINFO    [0m LoggedInPage:selenium_driver.py:179 Element appeared on the web page
